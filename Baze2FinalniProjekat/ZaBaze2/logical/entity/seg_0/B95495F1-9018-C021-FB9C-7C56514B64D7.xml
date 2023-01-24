@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B95495F1-9018-C021-FB9C-7C56514B64D7" name="Direktor">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:34:56 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>65ACC235-B57C-7DAC-6819-1CF87CE3995B</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IMED" id="BDE2BFB7-4CD9-D288-DE17-612D243527F9">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:35:12 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PLATAD" id="F2AB3880-AD26-8494-2790-F56159DB4C5D">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:35:23 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDR" id="BA994ACB-D1E4-3207-A29B-2B3EC190A1AD">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:36:14 UTC</createdTime>
+<generatorID>9C362D5F-0A54-E4A8-E33E-84F83AD7F45C</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F113E67C-347D-A016-125F-135405F511B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

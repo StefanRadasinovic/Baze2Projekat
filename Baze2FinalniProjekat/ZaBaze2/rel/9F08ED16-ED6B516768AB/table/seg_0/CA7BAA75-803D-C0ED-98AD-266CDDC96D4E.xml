@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA7BAA75-803D-C0ED-98AD-266CDDC96D4E" name="Kredit">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>2547CF0A-F149-AE44-B1F3-89431C659AE5</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDKR" id="E977A027-5FE6-EE4F-93EC-C208AD720BB2">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>94FE1D68-3ED1-7C4C-D18E-F701A7124C85</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOK" id="39C4C9D8-8082-5A40-9A7B-F76774593934">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>134AF26D-3A07-C279-16CC-BB8251F3303B</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UK" id="AE1E2A1D-E85F-B5ED-FD55-4814AAD695C6">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>C7CA9D1E-2029-D291-7D3C-EADFB7AA0D54</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPVALUTE" id="6032DFEF-24DA-23C4-90D8-CA8F22FD8D73">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>30701A87-11CF-8B30-2D1A-00B9030095CF</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<constraintName>CH_INH_Kredit</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<listOfValues>
+<valueDef value="DomacaV" description="entity DomacaV"/>
+<valueDef value="Kredit" description="entity Kredit"/>
+<valueDef value="StranaV" description="entity StranaV"/>
+</listOfValues>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="IDR" id="EE08ACC3-D3EE-0509-89DB-60D93D069C49">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:10:56 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57AC3B33-EF3A-C182-2F26-7E7E547D8FB3" referredColumn="FDB37813-99AC-9630-883E-866E72D92258"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FC03AE3-E535-CC6D-7129-D5B86B0398E9" name="Kredit_PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>2ED3AA85-E9D7-83DD-72D1-A983C5E61CD7</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E977A027-5FE6-EE4F-93EC-C208AD720BB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4CD6948-E62D-4D79-0E3D-73C48004ADAD" name="Kredit_Referent_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:10:56 UTC</createdTime>
+<generatorID>D0EE2DB6-94B8-486D-2A01-59072079E3D9</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE08ACC3-D3EE-0509-89DB-60D93D069C49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEF69D50-2894-27A5-0468-9A88A6330A1D" name="Kancelarija">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>9904D5C0-9B3A-7F75-9EA3-010513FC95B7</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BRK" id="FDF84FF5-A36D-CC4D-CC20-1F4D620A6EC5">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>C136B242-5269-B3B1-EB6F-8413F79D667C</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KVK" id="0E56E356-2B09-221E-E853-1F6CDC758820">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>030E7C63-4897-5BB3-4E98-2CC77B06412C</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SVRHA" id="91D454B0-2BF9-BC84-89D2-CE753DE7256A">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>3A5DA538-C47D-0715-FF43-5767F89FCF8A</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<constraintName>CH_INH_Kancelarija</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<listOfValues>
+<valueDef value="Kancelarija" description="entity Kancelarija"/>
+<valueDef value="Kkk" description="entity Kkk"/>
+<valueDef value="Skk" description="entity Skk"/>
+</listOfValues>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C008E34D-7C9F-3FAC-320C-26497BB45F7C" name="Kancelarija_PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>416B1D4B-C526-ABE0-36E2-4EB0E6D42261</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDF84FF5-A36D-CC4D-CC20-1F4D620A6EC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

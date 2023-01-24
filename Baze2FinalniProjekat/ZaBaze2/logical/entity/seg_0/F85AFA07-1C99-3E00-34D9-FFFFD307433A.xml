@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F85AFA07-1C99-3E00-34D9-FFFFD307433A" name="Skk">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:54:05 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>9904D5C0-9B3A-7F75-9EA3-010513FC95B7</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RBSK" id="1509928C-E094-1F37-46EF-C8ECE7FF38AF">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:54:16 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BRSK" id="94458A5B-6F56-E375-F28B-2562552ED997">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:54:40 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

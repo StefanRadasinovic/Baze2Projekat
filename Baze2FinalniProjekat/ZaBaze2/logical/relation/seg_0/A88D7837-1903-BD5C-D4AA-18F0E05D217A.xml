@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="koristi usluge" directorySegmentName="seg_0" id="A88D7837-1903-BD5C-D4AA-18F0E05D217A">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:50:14 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<sourcePk>6659534B-8BC5-8A0E-79D1-E4DC449C9500</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C2943391-7B35-7281-F6EE-2532C2B61243</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>15059CD2-9EAC-A957-A49A-8986CA7D9093</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7530FFAD-6C4F-6C60-7319-686AD8892257" name="obracunavanje">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BRK" id="0B5749C2-28D2-E99A-0D22-F1E129F19765">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B7BA968-B6B0-0AE6-7E37-87FA4AED8920" referredColumn="7DB99314-320B-08AE-D3A5-DA8CE2529F5B"/>
+</associations>
+</Column>
+<Column name="IDKR" id="369DABB6-FF83-2611-F300-8603341823FD">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED3CE852-990C-218A-3497-80927C09AC43" referredColumn="34D6473E-1458-28A3-27F5-FE752B9F14AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C10F3362-05D1-8DFF-C7CE-0138B59C4D8D" name="obracunavanje_PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B5749C2-28D2-E99A-0D22-F1E129F19765"/>
+<colUsage columnID="369DABB6-FF83-2611-F300-8603341823FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3556A2AA-CFD3-0BDF-D7A8-07D4C41BDC27" name="obracunavanje_Kkk_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>F6434249-AE5C-657F-7E51-DE974BCB355A</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B5749C2-28D2-E99A-0D22-F1E129F19765"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46AB9F75-C7CA-407A-0137-F9E11A388EB8" name="obracunavanje_StranaV_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>F6434249-AE5C-657F-7E51-DE974BCB355A</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="369DABB6-FF83-2611-F300-8603341823FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

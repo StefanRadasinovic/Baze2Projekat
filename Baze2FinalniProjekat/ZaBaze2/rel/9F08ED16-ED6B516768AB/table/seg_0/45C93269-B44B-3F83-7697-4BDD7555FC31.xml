@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45C93269-B44B-3F83-7697-4BDD7555FC31" name="Skk">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>F85AFA07-1C99-3E00-34D9-FFFFD307433A</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BRK" id="F68F0BAB-4324-3091-9715-11572F3A5CF9">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>C136B242-5269-B3B1-EB6F-8413F79D667C</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AB21606-E089-886A-6F63-2015808A470F" referredColumn="FDF84FF5-A36D-CC4D-CC20-1F4D620A6EC5"/>
+</associations>
+</Column>
+<Column name="RBSK" id="AD7E8924-30DC-150A-8745-AE65C1234ED0">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>1509928C-E094-1F37-46EF-C8ECE7FF38AF</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRSK" id="425CCEFB-2669-1B43-2B7E-ABC0DF33E723">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>94458A5B-6F56-E375-F28B-2562552ED997</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44BEBC44-28CF-4131-CE24-049ADDEDEBAB" name="Skk_PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>416B1D4B-C526-ABE0-36E2-4EB0E6D42261</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F68F0BAB-4324-3091-9715-11572F3A5CF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66010A7F-CBFF-8A52-AFA6-AA424FF71320" name="Skk_Kancelarija_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>F7DA3AF7-048B-4781-6BCD-E2EF9C12A065</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F68F0BAB-4324-3091-9715-11572F3A5CF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

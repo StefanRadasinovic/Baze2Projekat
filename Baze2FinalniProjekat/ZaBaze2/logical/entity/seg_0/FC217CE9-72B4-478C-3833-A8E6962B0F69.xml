@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC217CE9-72B4-478C-3833-A8E6962B0F69" name="Sadrzi">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:28:49 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDE" id="12CB8D34-D1DA-4DAA-8D22-89533CD168F5">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:38:56 UTC</createdTime>
+<generatorID>1A5B1F15-2FA3-B53D-F798-63BEDDBF4E40</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<referedAttribute>D3A55D57-54F0-D6D4-FB35-EF269CE1B520</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZB" id="65A9CFB7-5E15-D67C-D58C-F394DBEC89D5">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:38:56 UTC</createdTime>
+<generatorID>1A5B1F15-2FA3-B53D-F798-63BEDDBF4E40</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<referedAttribute>3B2545D6-1581-6AD0-C9C1-02497CA74F89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BRK" id="AB80439E-DF5A-BEF4-DC25-EB50D1F6372B">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:39:16 UTC</createdTime>
+<generatorID>74FDB94F-F581-A40E-1D36-0AE24A4DCF95</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<referedAttribute>C136B242-5269-B3B1-EB6F-8413F79D667C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E48A2A15-BD6C-49FF-BD39-6E08F591D958" name="Sadrzi PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:38:56 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12CB8D34-D1DA-4DAA-8D22-89533CD168F5</attributeRef>
+<attributeRef>65A9CFB7-5E15-D67C-D58C-F394DBEC89D5</attributeRef>
+<attributeRef>AB80439E-DF5A-BEF4-DC25-EB50D1F6372B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

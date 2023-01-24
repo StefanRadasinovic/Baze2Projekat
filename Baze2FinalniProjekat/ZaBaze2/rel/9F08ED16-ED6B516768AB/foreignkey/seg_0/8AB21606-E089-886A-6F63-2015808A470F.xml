@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8AB21606-E089-886A-6F63-2015808A470F" containerWithKeyObject="45C93269-B44B-3F83-7697-4BDD7555FC31" localFKIndex="66010A7F-CBFF-8A52-AFA6-AA424FF71320" name="Skk_Kancelarija_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>F7DA3AF7-048B-4781-6BCD-E2EF9C12A065</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<referredTableLongName>Kancelarija</referredTableLongName>
+<arc>CE4820CC-07D1-E6ED-2263-986E499DC20A</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DEF69D50-2894-27A5-0468-9A88A6330A1D</referredTableID>
+<keyObject>C008E34D-7C9F-3FAC-320C-26497BB45F7C</keyObject>
+<referredKeyID>C008E34D-7C9F-3FAC-320C-26497BB45F7C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BRK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Skk</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

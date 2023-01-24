@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D40DC4BA-A5F4-EB5A-17E5-944D3553BF11" name="Obzb">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:30:20 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>65ACC235-B57C-7DAC-6819-1CF87CE3995B</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IMEO" id="5A54E603-489F-4D9B-71B5-D560D7B776F2">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:30:41 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SMENAO" id="57814DCE-419E-E193-31B1-B8A8344BA91C">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:31:39 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDE" id="9642D0BF-510C-E8E7-9899-BFD1573BC47D">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:42:05 UTC</createdTime>
+<generatorID>D89309E7-8242-BDE3-CC7E-6C840CD90582</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D3A55D57-54F0-D6D4-FB35-EF269CE1B520</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZB" id="8680BF7E-753A-62F3-A355-C366AA9C9E5E">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:42:05 UTC</createdTime>
+<generatorID>D89309E7-8242-BDE3-CC7E-6C840CD90582</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3B2545D6-1581-6AD0-C9C1-02497CA74F89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="123EAD87-8B70-EB69-0068-1581A3771512" name="Obzb PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:31:26 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A54E603-489F-4D9B-71B5-D560D7B776F2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

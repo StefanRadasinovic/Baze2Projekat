@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEA77F19-2C71-5EB8-A27F-7A94E61DE31A" name="zahteva">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZRK" id="32E84CBA-799A-7C31-6586-5D23D3C1420C">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4E73EDD-FC42-104D-1118-0C19914D7477" referredColumn="8B6FF0B2-113D-F746-72E2-B4788CBA5394"/>
+</associations>
+</Column>
+<Column name="IDKR" id="FDB6D457-B5C6-0550-DF52-49E39450B7CD">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:11:25 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="798C4338-2C31-A815-EEFA-DEE91A2917D8" referredColumn="E977A027-5FE6-EE4F-93EC-C208AD720BB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78DBCBC6-5C5B-62AB-2D40-A227377CC17C" name="zahteva_PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32E84CBA-799A-7C31-6586-5D23D3C1420C"/>
+<colUsage columnID="FDB6D457-B5C6-0550-DF52-49E39450B7CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3431494D-481C-9DE6-4E46-D29B93D461F2" name="zahteva_Klijent_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>9BBB00C9-8835-17BE-11E0-4B33B4BC1A11</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32E84CBA-799A-7C31-6586-5D23D3C1420C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFD4AE70-B6F6-876C-3BB6-6A29C096DA54" name="zahteva_Kredit_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:11:25 UTC</createdTime>
+<generatorID>2ED3AA85-E9D7-83DD-72D1-A983C5E61CD7</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDB6D457-B5C6-0550-DF52-49E39450B7CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

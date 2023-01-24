@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BDC11F4-6276-E96D-74DB-5123E9B4CCA1" name="Izda">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:48:52 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDR" id="80188C34-09FB-D8BB-1A0C-9EAB8A6AC74F">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:49:11 UTC</createdTime>
+<generatorID>8F04EA13-C993-C68D-FA88-430E27DF4539</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<referedAttribute>F113E67C-347D-A016-125F-135405F511B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDKR" id="12CF3979-FA4B-4DC0-8F7E-005115152E2B">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:49:23 UTC</createdTime>
+<generatorID>F14874EE-8A1E-CD8B-EE2A-FC2D0C36BB0A</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<referedAttribute>94FE1D68-3ED1-7C4C-D18E-F701A7124C85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3159920-5E29-620A-88EF-61A33F9608E5" name="Izda PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:49:11 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80188C34-09FB-D8BB-1A0C-9EAB8A6AC74F</attributeRef>
+<attributeRef>12CF3979-FA4B-4DC0-8F7E-005115152E2B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18646A92-9230-4644-0115-74C307C4D786" name="Direktor">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>B95495F1-9018-C021-FB9C-7C56514B64D7</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDR" id="1BFD0CCF-7AFA-A035-81CB-5BCBEBA1D14C">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>F113E67C-347D-A016-125F-135405F511B5</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC5381A3-B0B6-5C32-E831-6798145655B2" referredColumn="9E51AEFD-7B2F-55E5-E04B-E62528B73C23"/>
+</associations>
+</Column>
+<Column name="IMED" id="325690BF-DA9F-0138-D818-6A9EE157F3BB">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>BDE2BFB7-4CD9-D288-DE17-612D243527F9</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLATAD" id="1BBC7C6F-F5ED-D046-4A2D-C54D50023A03">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>F2AB3880-AD26-8494-2790-F56159DB4C5D</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDR2" id="8A3B187C-2554-ACB3-28B6-3E592938D38A">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>BA994ACB-D1E4-3207-A29B-2B3EC190A1AD</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18A70B48-FAB3-369F-99DE-4FBBD7DCA5AE" referredColumn="1BFD0CCF-7AFA-A035-81CB-5BCBEBA1D14C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5041519D-A2E9-D830-D801-C20BB2E97DE9" name="Direktor_PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>D0EE2DB6-94B8-486D-2A01-59072079E3D9</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BFD0CCF-7AFA-A035-81CB-5BCBEBA1D14C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB140B4E-E865-4F2E-C266-15BDA1C9994B" name="Direktor_Radnik_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>A3E0BA3F-04E6-40DD-7F6D-08DBB76955DF</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BFD0CCF-7AFA-A035-81CB-5BCBEBA1D14C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6328A56D-DFC4-4C93-1AF1-C6C73B01B739" name="Direktor_Direktor_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>9C362D5F-0A54-E4A8-E33E-84F83AD7F45C</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A3B187C-2554-ACB3-28B6-3E592938D38A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

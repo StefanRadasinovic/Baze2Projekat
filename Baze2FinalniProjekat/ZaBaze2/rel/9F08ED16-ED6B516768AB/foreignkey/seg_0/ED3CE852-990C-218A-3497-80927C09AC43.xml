@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ED3CE852-990C-218A-3497-80927C09AC43" containerWithKeyObject="7530FFAD-6C4F-6C60-7319-686AD8892257" localFKIndex="46AB9F75-C7CA-407A-0137-F9E11A388EB8" name="obracunavanje_StranaV_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>F6434249-AE5C-657F-7E51-DE974BCB355A</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<referredTableLongName>StranaV</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>534CD1EA-0439-671F-5E9E-C34597880165</referredTableID>
+<keyObject>770B6ED9-048B-8C45-3D5C-8480F0AFAD44</keyObject>
+<referredKeyID>770B6ED9-048B-8C45-3D5C-8480F0AFAD44</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDKR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

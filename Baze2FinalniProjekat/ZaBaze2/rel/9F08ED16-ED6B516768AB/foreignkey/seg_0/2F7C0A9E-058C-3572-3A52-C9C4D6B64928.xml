@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F7C0A9E-058C-3572-3A52-C9C4D6B64928" containerWithKeyObject="BC6B6E8D-36B2-388E-998B-F84017EA0670" localFKIndex="21E2B600-1E5E-A785-CA81-DB90518BFAA0" name="Klijent_Ekspozitura_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>A88D7837-1903-BD5C-D4AA-18F0E05D217A</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<referredTableLongName>Ekspozitura</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BB515110-7041-0B87-E264-F74536EB9520</referredTableID>
+<keyObject>8DDCE7A0-B860-1E39-7529-0D56F21C0C00</keyObject>
+<referredKeyID>8DDCE7A0-B860-1E39-7529-0D56F21C0C00</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>IDE,Banka_NAZB</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

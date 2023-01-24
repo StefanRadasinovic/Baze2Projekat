@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2943391-7B35-7281-F6EE-2532C2B61243" name="Ekspozitura">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:25:05 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDE" id="D3A55D57-54F0-D6D4-FB35-EF269CE1B520">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:25:25 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOKE" id="8552D65B-B683-2DF5-0D1B-F203FE435A54">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:25:43 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZB" id="3B2545D6-1581-6AD0-C9C1-02497CA74F89">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:38:41 UTC</createdTime>
+<generatorID>AB3B9B28-A2F8-625A-9180-75AD220F319D</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<referedAttribute>CD585ECC-A9AB-A7CB-4C53-2EDC968FD84F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6659534B-8BC5-8A0E-79D1-E4DC449C9500" name="Ekspozitura PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:25:29 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3A55D57-54F0-D6D4-FB35-EF269CE1B520</attributeRef>
+<attributeRef>3B2545D6-1581-6AD0-C9C1-02497CA74F89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

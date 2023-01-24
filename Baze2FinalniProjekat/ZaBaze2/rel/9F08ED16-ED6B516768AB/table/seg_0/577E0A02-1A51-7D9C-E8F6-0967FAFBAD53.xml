@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="577E0A02-1A51-7D9C-E8F6-0967FAFBAD53" name="postavljen">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDE" id="E6BDFF9B-CB46-88E6-D319-8D2F69BFBD2E">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B575598D-E7D6-9668-E014-35ABDEF3A79D" referredColumn="26C6F0CB-D515-9B54-F44F-7D90E9199361"/>
+</associations>
+</Column>
+<Column name="NAZB" id="09529D00-E1BC-F40B-0BF0-4E02335B718B">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B575598D-E7D6-9668-E014-35ABDEF3A79D" referredColumn="A2EFFF5F-A0FE-68E2-6259-66E01373D58B"/>
+</associations>
+</Column>
+<Column name="BRK" id="522370D4-5469-9739-0720-EEE72B03590E">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B575598D-E7D6-9668-E014-35ABDEF3A79D" referredColumn="463EF116-4C13-0A2E-6B35-3D28B84C1D6C"/>
+</associations>
+</Column>
+<Column name="IDR" id="4048EDFC-D41F-F1B9-E38B-3CAB48BCB906">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:09:20 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7CAC333-1A20-FA00-3943-211C04D609B0" referredColumn="9E51AEFD-7B2F-55E5-E04B-E62528B73C23"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92F1FFA1-2EDC-E551-384F-0F5403917633" name="postavljen_PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6BDFF9B-CB46-88E6-D319-8D2F69BFBD2E"/>
+<colUsage columnID="09529D00-E1BC-F40B-0BF0-4E02335B718B"/>
+<colUsage columnID="522370D4-5469-9739-0720-EEE72B03590E"/>
+<colUsage columnID="4048EDFC-D41F-F1B9-E38B-3CAB48BCB906"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05AD83E6-158F-6CA5-5AFE-F9F273AA9379" name="postavljen_Sadrzi_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>15E828BC-8DF9-5EC8-D6D7-6E02FD8D1FF2</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6BDFF9B-CB46-88E6-D319-8D2F69BFBD2E"/>
+<colUsage columnID="09529D00-E1BC-F40B-0BF0-4E02335B718B"/>
+<colUsage columnID="522370D4-5469-9739-0720-EEE72B03590E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA3837C9-0DAA-EFDE-87D1-730642786589" name="postavljen_Radnik_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:09:20 UTC</createdTime>
+<generatorID>D0EE2DB6-94B8-486D-2A01-59072079E3D9</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4048EDFC-D41F-F1B9-E38B-3CAB48BCB906"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

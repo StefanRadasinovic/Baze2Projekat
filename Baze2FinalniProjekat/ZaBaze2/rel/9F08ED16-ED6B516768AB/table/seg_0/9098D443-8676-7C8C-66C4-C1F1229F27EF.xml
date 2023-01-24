@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9098D443-8676-7C8C-66C4-C1F1229F27EF" name="Radnik">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>65ACC235-B57C-7DAC-6819-1CF87CE3995B</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDR" id="9E51AEFD-7B2F-55E5-E04B-E62528B73C23">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>F113E67C-347D-A016-125F-135405F511B5</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRTEL" id="793A52B2-59DC-771B-CAD5-E206C28B54F5">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>BEEA6B69-287D-415D-5E4A-AE32D34DC11D</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VRSTAR" id="4AD2843A-4B9D-8315-35FC-476363180857">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>BC1B1F82-AE50-2390-3488-8548CD1B74C2</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<constraintName>CH_INH_Radnik</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<listOfValues>
+<valueDef value="Direktor" description="entity Direktor"/>
+<valueDef value="Obzb" description="entity Obzb"/>
+<valueDef value="Radnik" description="entity Radnik"/>
+<valueDef value="Referent" description="entity Referent"/>
+</listOfValues>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="NAZB" id="05215497-70D9-78D7-4CBF-0DC60CD3BF67">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:08:06 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD3383F0-5C3D-E91B-8355-D793D1E04E7E" referredColumn="57147958-0ED8-646E-3985-DFF9F059DFA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="653753DD-C0B4-1545-E6E9-E2C729121979" name="Radnik_PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>D0EE2DB6-94B8-486D-2A01-59072079E3D9</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E51AEFD-7B2F-55E5-E04B-E62528B73C23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9E0A60F-36E5-1D29-859F-F68C70C4B70F" name="Radnik_Banka_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:08:06 UTC</createdTime>
+<generatorID>B30DA641-516B-E766-5B0B-3BBC736C159B</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05215497-70D9-78D7-4CBF-0DC60CD3BF67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

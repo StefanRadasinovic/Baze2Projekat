@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="95B22F8F-C210-5757-114E-A16AF281C1B0" containerWithKeyObject="534CD1EA-0439-671F-5E9E-C34597880165" localFKIndex="7D73219C-6372-59E9-8850-9E086D34A057" name="StranaV_Kredit_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>48F50F24-523F-59AF-AA25-F4BBAE95AB07</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<referredTableLongName>Kredit</referredTableLongName>
+<arc>88128765-784C-0A01-6B42-40C294974403</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA7BAA75-803D-C0ED-98AD-266CDDC96D4E</referredTableID>
+<keyObject>8FC03AE3-E535-CC6D-7129-D5B86B0398E9</keyObject>
+<referredKeyID>8FC03AE3-E535-CC6D-7129-D5B86B0398E9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDKR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>StranaV</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19252E7D-FAC9-EB7B-9D4D-6E81A7124E2F" name="Zaposljava">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:26:40 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NAZB" id="50895FF9-2032-974A-8284-7C5D78878215">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:39:50 UTC</createdTime>
+<generatorID>7CCFF588-7223-4CDD-461F-A232B4AFFE2A</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<referedAttribute>CD585ECC-A9AB-A7CB-4C53-2EDC968FD84F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDR" id="5B21C8F3-3C6E-3E3C-A5DF-C82147E0F1BA">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:40:05 UTC</createdTime>
+<generatorID>8A357F13-B4F1-D646-CB60-FF244FEE728E</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<referedAttribute>F113E67C-347D-A016-125F-135405F511B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B934406-0504-5E49-7FC2-08AB674F210A" name="Zaposljava PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:39:50 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>50895FF9-2032-974A-8284-7C5D78878215</attributeRef>
+<attributeRef>5B21C8F3-3C6E-3E3C-A5DF-C82147E0F1BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

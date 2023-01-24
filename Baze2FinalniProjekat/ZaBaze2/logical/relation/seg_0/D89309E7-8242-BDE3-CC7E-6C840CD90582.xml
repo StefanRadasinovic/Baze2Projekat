@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cuva" directorySegmentName="seg_0" id="D89309E7-8242-BDE3-CC7E-6C840CD90582">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 17:42:05 UTC</createdTime>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<engineerTo>
+<item key="9F08ED16-2581-65C6-C184-ED6B516768AB" value="true"/>
+</engineerTo>
+<sourcePk>6659534B-8BC5-8A0E-79D1-E4DC449C9500</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C2943391-7B35-7281-F6EE-2532C2B61243</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D40DC4BA-A5F4-EB5A-17E5-944D3553BF11</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

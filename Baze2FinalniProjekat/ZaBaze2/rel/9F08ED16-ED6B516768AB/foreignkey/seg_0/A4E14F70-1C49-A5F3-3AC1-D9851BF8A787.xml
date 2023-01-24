@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4E14F70-1C49-A5F3-3AC1-D9851BF8A787" containerWithKeyObject="FF48962B-4318-2D7A-40CE-A920E2407EEF" localFKIndex="DFF45FEC-C756-F284-459A-91CA7BAF21E5" name="DomacaV_Kredit_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>17A3D1AF-39B8-607D-1A7D-FE074D3C5334</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<referredTableLongName>Kredit</referredTableLongName>
+<arc>88128765-784C-0A01-6B42-40C294974403</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA7BAA75-803D-C0ED-98AD-266CDDC96D4E</referredTableID>
+<keyObject>8FC03AE3-E535-CC6D-7129-D5B86B0398E9</keyObject>
+<referredKeyID>8FC03AE3-E535-CC6D-7129-D5B86B0398E9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDKR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>DomacaV</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

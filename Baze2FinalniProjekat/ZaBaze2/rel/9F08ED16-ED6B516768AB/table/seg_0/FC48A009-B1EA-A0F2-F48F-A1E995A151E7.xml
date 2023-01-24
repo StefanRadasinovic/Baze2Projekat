@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC48A009-B1EA-A0F2-F48F-A1E995A151E7" name="Sadrzi">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>FC217CE9-72B4-478C-3833-A8E6962B0F69</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDE" id="26C6F0CB-D515-9B54-F44F-7D90E9199361">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>12CB8D34-D1DA-4DAA-8D22-89533CD168F5</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED345111-B7EC-6990-0428-A36E7139F1E2" referredColumn="DB68FEF1-95EB-D0DB-0788-8458B782B6F6"/>
+</associations>
+</Column>
+<Column name="NAZB" id="A2EFFF5F-A0FE-68E2-6259-66E01373D58B">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>65A9CFB7-5E15-D67C-D58C-F394DBEC89D5</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED345111-B7EC-6990-0428-A36E7139F1E2" referredColumn="F7AC0CD0-02A6-620B-ED15-F886DF03FA24"/>
+</associations>
+</Column>
+<Column name="BRK" id="463EF116-4C13-0A2E-6B35-3D28B84C1D6C">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>AB80439E-DF5A-BEF4-DC25-EB50D1F6372B</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="388CFD0E-0923-6488-FDCA-EB8DC49FCF61" referredColumn="FDF84FF5-A36D-CC4D-CC20-1F4D620A6EC5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E07C2C47-F838-46C8-B1AB-86DA02BE6FB4" name="Sadrzi_PK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>E48A2A15-BD6C-49FF-BD39-6E08F591D958</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C6F0CB-D515-9B54-F44F-7D90E9199361"/>
+<colUsage columnID="A2EFFF5F-A0FE-68E2-6259-66E01373D58B"/>
+<colUsage columnID="463EF116-4C13-0A2E-6B35-3D28B84C1D6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEDF9B59-3284-8402-743B-96EDF87FC0E4" name="Sadrzi_Ekspozitura_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>1A5B1F15-2FA3-B53D-F798-63BEDDBF4E40</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C6F0CB-D515-9B54-F44F-7D90E9199361"/>
+<colUsage columnID="A2EFFF5F-A0FE-68E2-6259-66E01373D58B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9DA4B41-0BD3-9F43-6ACF-5CE4585956F6" name="Sadrzi_Kancelarija_FK">
+<createdBy>User</createdBy>
+<createdTime>2023-01-22 18:03:17 UTC</createdTime>
+<generatorID>74FDB94F-F581-A40E-1D36-0AE24A4DCF95</generatorID>
+<ownerDesignName>ZaBaze2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="463EF116-4C13-0A2E-6B35-3D28B84C1D6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

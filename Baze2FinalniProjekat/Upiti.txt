@@ -1,0 +1,16 @@
+create or replace view postavljeni_referenti_domacaV as
+select r.brtel, r.nazb , count(r.idr) as broj_radnika
+from radnik r, postavljen po, banka b, kredit k
+where r.nazb=b.nazb and r.vrstar='Referent'and k.tipvalute='DomacaV' and po.nazb=b.nazb and b.rvb>= '01-JAN-2024' and b.rvb<= '31-AUG-2024'
+group by r.brtel, r.nazb
+order by broj_radnika desc;
+
+
+
+create or replace view ucestalost_kredita as
+select kredit.idkr as idkr, kredit.dok as datum, count(zahteva.idkr) as ukupno_zahteva,
+sum((stranav.pksv)/2) as prosecan_stranikurs
+from stranav, referent,kredit right outer join zahteva on kredit.idkr=zahteva.idkr
+where zahteva.idkr = stranav.idkr and zahteva.idkr=kredit.idkr and kredit.dok>= '01-JAN-2023' and kredit.dok<= '31-JUN-2023'  
+group by kredit.idkr, kredit.dok
+order by ukupno_zahteva desc; 
