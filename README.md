@@ -8,7 +8,7 @@
 
 *Script data 'Skripta.ddl' is generated based on the relational model that also fills tables with data
 
-*Script data 'Upiti.sql' creates  table views 
+*Script data 'Upiti.txt' creates  table views 
 
 
 <br>
