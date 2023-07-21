@@ -1,4 +1,4 @@
-# Baze2Projekat
+# Database for CreditBank Agency
 #Specification, Relational and ER model of CreditBank agency database
 <br>
 <br>
